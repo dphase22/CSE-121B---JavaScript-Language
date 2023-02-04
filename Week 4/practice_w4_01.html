@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!--<h2>What Can JavaScript Do?</h2>
+        <p id="demo">Click and I will change</p>
+        <button
+            type="button"
+            onclick='document.getElementById("demo").innerHTML = "Hola"'
+        >
+            Click Me!
+        </button>-->
+        <script>
+            function myFunc(theObject) {
+                theObject.make = "Toyota";
+            }
+            const mycar = {
+                make: "Honda",
+                model: "Accord",
+                year: 1998,
+            };
+            // x gets the value
+            const x = mycar.make;
+            // the make property is changed by the
+            myFunc(mycar); // y gets the value "Toyota" const y =
+            const y = mycar.make;
+        </script>
+    </body>
+</html>
